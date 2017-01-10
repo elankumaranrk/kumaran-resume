@@ -5,6 +5,8 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import {KumaranResumeModule} from './kumaran-resume/kumaran-resume.module'
+
 @NgModule({
   declarations: [
     AppComponent
@@ -12,7 +14,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    KumaranResumeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
